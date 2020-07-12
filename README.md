@@ -9,6 +9,13 @@ clearly based off a [Gravis gamepad](https://en.wikipedia.org/wiki/Gravis_PC_Gam
 It has 2 switches, one to toggle the cursor speed when emulating a
 pointing device, and one to make the joypad left-handed/upside-down.
 
+## Protocol
+
+The protocol used is a simple serial protocol, with the player telling the joypad
+when to send data. More information is available in this [Technical Info -
+ Pointing Devices](https://archive.org/details/philips_cdi_pointing_devices)
+document.
+
 ## PCBs
 
 ![Back](images/IMG_4982.jpg)
