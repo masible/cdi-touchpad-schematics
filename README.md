@@ -43,5 +43,4 @@ as a Logitech `330078-00 LOGITECH 93`.
 
 ![MCU](images/IMG_4983.jpg)
 
-![Possible partial pinout](images/XC705K1CP.png)
-
+![Possible partial pinout](images/XC705K1CP.svg)
