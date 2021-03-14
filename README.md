@@ -20,15 +20,16 @@ document.
 
 ![Back](images/IMG_4982.jpg)
 ![Front](images/IMG_5004.JPG)
+![Original cable colours](images/IMG_6285.jpg)
 
 ## Connector pinout
 
-| J1 pin       | Joypad   | Din 8 pin | Reason |
-| ------------ |----------|-----------|---|
-| 1 (top)      | GND      | 5         | connects with metal shielding of switches |
-| 2            | RXD      | 2         | (the only one left ;) |
-| 3            | RTS      | 7         | connects through R1, a 150kΩ resistor (value used for [pull-down in CMOS applications](http://www.resistorguide.com/pull-up-resistor_pull-down-resistor/))|
-| 4 (bottom)   | 5V/VDD   | 8         | connects through all the buttons and switches to an MCU pin)
+| J1 pin       | Joypad   | Din 8 pin | Cable colour | Reason |
+| ------------ |----------|-----------|--------------| -------|
+| 1 (top)      | GND      | 5         | Brown | connects with metal shielding of switches |
+| 2            | RXD      | 2         | Black | (the only one left ;) |
+| 3            | RTS      | 7         | Red | connects through R1, a 150kΩ resistor (value used for [pull-down in CMOS applications](http://www.resistorguide.com/pull-up-resistor_pull-down-resistor/))|
+| 4 (bottom)   | 5V/VDD   | 8         | Orange | connects through all the buttons and switches to an MCU pin)
 
 ![mini-Din 8](images/mini-din-8.jpg)
 
